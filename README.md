@@ -13,11 +13,17 @@ python -m http.server 8080
 
 Then open http://localhost:8080
 
-## Deploy free (GitHub Pages)
+## Live site
 
-1. Push the `website/` folder to GitHub (or use a `gh-pages` branch with only this folder).
-2. In the repository: **Settings → Pages → Source** → deploy from branch / folder `website`.
-3. Your site will be at `https://<username>.github.io/<repo>/` (or a custom domain).
+**https://desmohammed198952-art.github.io/ASKERP-website/**
+
+Source repo: https://github.com/desmohammed198952-art/ASKERP-website
+
+Edits in this folder: commit and push from `website/` (it has its own git remote).
+
+## Deploy (GitHub Pages)
+
+Already published from the public `ASKERP-website` repository (branch `main`, root `/`).
 
 ## Deploy free (Netlify)
 
