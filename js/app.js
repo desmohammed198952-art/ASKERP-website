@@ -29,6 +29,7 @@
     document.querySelectorAll('.lang-btn').forEach((btn) => {
       btn.classList.toggle('active', btn.dataset.lang === next);
     });
+    document.title = strings[next].page_title || 'ASKERP';
     localStorage.setItem(STORAGE_KEY, next);
   };
 
